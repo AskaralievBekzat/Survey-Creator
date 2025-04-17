@@ -55,4 +55,4 @@ Survey Questionnaire Creator is a Java-based application designed to facilitate 
 - Implementing structured error handling to improve system stability.
 ## Test Cases and Outputs
 ### **Test Case 1: Adding a New Survey Question**
-**Input:**![java 2.png](../Pictures/Screenshots/java%202.png)
+**Input:**![Image](https://github.com/user-attachments/assets/656f4122-9071-410b-9a51-b081dbffdddd)
