@@ -1,3 +1,10 @@
 Do you like sports?,Yes, I do
 Do you like sports?,yep
 How is Uni going?,good
+Do you like sports?,not much
+what are your hobbies?,cycling
+Do you like sports?,Yes, I do
+Do you like sports?,yep
+How is Uni going?,good
+Do you like sports?,not much
+what are your hobbies?,cycling
