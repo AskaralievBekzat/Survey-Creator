@@ -24,7 +24,7 @@ public class SurveyQuestionnaireCreator {
             System.out.print("Choose an option: ");
 
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine();
 
             switch (choice) {
                 case 1:
@@ -82,7 +82,7 @@ public class SurveyQuestionnaireCreator {
     private static void updateQuestion(Scanner scanner) {
         System.out.print("Enter the number of the question to update: ");
         int questionNumber = scanner.nextInt();
-        scanner.nextLine();  // Consume newline
+        scanner.nextLine();
 
         if (questionNumber < 1 || questionNumber > surveyManager.getQuestions().size()) {
             System.out.println("Invalid question number.");
@@ -97,7 +97,7 @@ public class SurveyQuestionnaireCreator {
     private static void deleteQuestion(Scanner scanner) {
         System.out.print("Enter the number of the question to delete: ");
         int questionNumber = scanner.nextInt();
-        scanner.nextLine();  // Consume newline
+        scanner.nextLine();
 
         if (questionNumber < 1 || questionNumber > surveyManager.getQuestions().size()) {
             System.out.println("Invalid question number.");
