@@ -48,4 +48,13 @@ public class SurveyManager {
         }
         return false;
     }
+    public void exportToCSV() {
+        DataPersistence.exportQuestionsToCSV(questions);
+        DataPersistence.exportResponsesToCSV(responses);
+    }
+
+    public void importFromCSV() {
+        DataPersistence.importQuestionsFromCSV(questions);
+        DataPersistence.importResponsesFromCSV(responses);
+    }
 }

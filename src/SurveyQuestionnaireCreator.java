@@ -18,10 +18,13 @@ public class SurveyQuestionnaireCreator {
             System.out.println("4. Delete Survey Question");
             System.out.println("5. Respond to Survey");
             System.out.println("6. View Responses");
-            System.out.println("7. Exit");
+            System.out.println("7. Export Data (CSV)");
+            System.out.println("8. Import Data (CSV)");
+            System.out.println("9. Exit");
             System.out.print("Choose an option: ");
+
             int choice = scanner.nextInt();
-            scanner.nextLine();  // Consume newline
+            scanner.nextLine(); // Consume newline
 
             switch (choice) {
                 case 1:
@@ -43,6 +46,12 @@ public class SurveyQuestionnaireCreator {
                     viewResponses();
                     break;
                 case 7:
+                    surveyManager.exportToCSV();
+                    break;
+                case 8:
+                    surveyManager.importFromCSV();
+                    break;
+                case 9:
                     saveData();
                     System.out.println("Exiting system...");
                     return;
